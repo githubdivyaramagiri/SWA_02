@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #528b5c;
+    background-image: url('pre.jpg');
+    
+}
+
+
+.container{
+    background-color: #1b3841;
+    background-image: url('pre.jpg');
+    width: 35%;
+    min-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0;
+    padding-bottom: 60px;
+    border-radius: 14px;
+    box-shadow: rgba(69, 139, 62, 0.4) 0px 2px 4px,
+                rgba(75, 133, 120, 0.3) 0px 7px 13px -3px, 
+                rgba(61, 120, 31, 0.2) 0px -3px 0px inset;
+}
+
+.timer-Display{
+    width: 100%;
+    background: #220331;
+    background-image: url('st.png');
+    padding: 30px 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #1f5b5b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.7rem;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: rgba(133, 41, 67, 0.17) 0px -23px 25px 0px inset,
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+                rgba(15, 63, 28, 0.06) 0px 2px 1px, 
+                rgba(3, 109, 89, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.laps{
+    text-align: center;
+    color: rgb(9, 9, 9);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.buttons{
+    width: 65%;
+    margin: 60px auto 0 auto;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    background-color: #a9c658;
+    background-image: url('s.jpg');
+
+}
+
+.buttons button{
+    padding: 10px 10px;
+    background-color: #47b481;
+    background-image: url('pree.jpg');
+
+    color: #dcd4e6;
+    border-radius: 35%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, 
+                rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, 
+                rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.buttons button:hover{
+    background-color:#0a3725 ;
+    color: #ffffff;
+    border: 3px solid #f3ebeb;
+    padding: 8px 18px;
+    
+} 
